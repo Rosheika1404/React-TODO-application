@@ -6,7 +6,7 @@ export function Home() {
 	const [todo, setTodo] = useState("");
 
 	return (
-		<div className="text-center mt-5">
+		<div className="text-center mt-5 notepad">
 			<div className="list">
 				<h1>To-Do List</h1>
 				<input
