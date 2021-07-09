@@ -8,7 +8,6 @@ export function Home() {
 	return (
 		<div className="text-center mt-5 notepad">
 			<div className="list">
-				<div className="bar"></div>
 				<h1>To-Do List</h1>
 				<input
 					className="input"
