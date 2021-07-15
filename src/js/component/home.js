@@ -16,14 +16,13 @@ export function Home() {
 					placeholder="What do you need to do? "
 					onChange={e => setTodo(e.target.value)}
 				/>
-
 				<button
 					onClick={() => {
 						setList([...list, todo]);
 						setTodo("");
 					}}
-					className="btn btn-success m-2">
-					Add
+					className="btn btn-success m-2 add">
+					<i className="fas fa-plus"></i>
 				</button>
 				{list.map((element, index) => (
 					<div key={index}>
