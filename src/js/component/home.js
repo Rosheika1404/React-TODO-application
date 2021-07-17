@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 //create your first component
 export function Home() {
-	const [list, setList] = useState([]);
+	const [list, setList] = useState(["set alarm", "eat breakfast"]);
 	const [todo, setTodo] = useState("");
 
 	return (
@@ -39,6 +39,7 @@ export function Home() {
 					</div>
 				))}
 			</div>
+			<footer className="remain ">Item(s) left: {list.length}</footer>
 		</div>
 	);
 }
